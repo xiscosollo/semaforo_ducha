@@ -40,7 +40,7 @@ if estado == "libre":
     # Círculo Verde Grande con HTML personalizado
     st.markdown(
         '<div style="background-color:#2ecc71; width:120px; height:120px; border-radius:50%; margin:20px auto; box-shadow: 0 0 20px #2ecc71;"></div>', 
-        unsafe_allowed_html=True
+        unsafe_allow_html=True
     )
     st.subheader("🟢 ESTADO: LIBRE")
     st.write("Puedes ducharte con total presión.")
