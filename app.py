@@ -63,7 +63,7 @@ else:
     # Círculo Rojo Grande
     st.markdown(
         '<div style="background-color:#e74c3c; width:120px; height:120px; border-radius:50%; margin:20px auto; box-shadow: 0 0 20px #e74c3c;"></div>', 
-        unsafe_allowed_html=True
+        unsafe_allow_html=True
     )
     st.subheader(f"🔴 OCUPADO por: {casa}")
     
